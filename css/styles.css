@@ -1,0 +1,45 @@
+/*images, lists, background images divisions */
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background: white;
+    color: #E01FCF;
+    font-family: "Arial Narrow",serif;
+}
+body{
+     /*background-color: #1CB25C;*/
+}
+.test{
+    color: orange;
+}
+
+.four{
+    border-radius: 5px;
+}
+
+.bg{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url("https://nellions.co.ke/wp-content/uploads/2020/03/what-your-seats-say-about-you.jpg");
+
+}
+
+.margin{
+    margin: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

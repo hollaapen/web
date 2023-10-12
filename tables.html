@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <style>
+        table, th, tr, td{
+            border: red 1px solid;
+
+        }
+        table, th, tr, td{
+            border-collapse: collapse;
+        }
+        thead,tfoot{
+            background-color: dimgray;
+        }
+
+        /*css selectors*/
+
+        td.one{
+            background-color: aqua;
+        }
+        tr.one{
+            background-color: yellow;
+        }
+        .one{
+            font-family: "Agency FB",serif;
+        }
+
+        tr:hover{
+            background-color: red;
+            font-size: 20px;
+
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a href="home.html">Home</a>
+<a href="forms.html">Form</a>
+<a href="tables.html">Table</a>
+
+
+
+<table>
+
+    <thead>
+    <tr>
+        <th class="test">Name</th>
+        <th>email</th>
+        <th>school</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>John</td>
+        <td>j@j.co</td>
+        <td>emobi</td>
+    </tr>
+
+    <tr class="one">
+        <td>John</td>
+        <td>j@j.co</td>
+        <td>emobi</td>
+    </tr>
+
+     <tr>
+        <td>Johnte</td>
+        <td>j@ffj.co</td>
+        <td>emobilis</td>
+    </tr>
+
+     <tr>
+        <td>Johnte</td>
+        <td class="one">j@ffj.co</td>
+        <td>emobilis</td>
+    </tr>
+
+     <tr>
+        <td>Johnte</td>
+        <td>j@ffj.co</td>
+        <td class="one">emobilis</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+         <tr>
+            <th>Name</th>
+            <th>email</th>
+            <th>school</th>
+        </tr>
+    </tfoot>
+
+
+</table>
+
+
+</body>
+</html>
